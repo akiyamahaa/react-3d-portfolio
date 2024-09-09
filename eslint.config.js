@@ -8,7 +8,6 @@ export default [
   { ignores: ['dist'] },
   {
     files: ['**/*.{js,jsx}'],
-    ignorePatterns: ['src/**/*.test.js', 'src/**/*.spec.js'],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
